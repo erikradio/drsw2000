@@ -1,7 +1,7 @@
 // application.scss
 //$navbar-height: 80px;
 $navbar-inverse-bg: #003268;
-.navbar-nav {
+div.navbar-nav {
   display: none;
 
  }
