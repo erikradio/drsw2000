@@ -117,7 +117,7 @@ class CatalogController < ApplicationController
     # config.add_show_field 'subtitle_vern_display', label: 'Subtitle'
     config.add_show_field 'author_t', label: 'Author'
     config.add_show_field 'keyword_t', label: 'Keyword'
-    config.add_show_field 'id_t', label: 'ID'
+
     config.add_show_field 'language_t', label: 'Language'
     config.add_show_field 'originalLocation_t', label: 'Original Location'
     config.add_show_field 'firstLocation_t', label: 'First Location'
@@ -129,6 +129,7 @@ class CatalogController < ApplicationController
     config.add_show_field 'precis_t', label: 'Precis'
     config.add_show_field 'ethnicGroup_t', label: 'Ethnic Group'
     config.add_show_field 'MilitaryGroup_t', label: 'Military Group'
+    config.add_show_field 'id', label: 'ID'
 
 
 
