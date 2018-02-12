@@ -1,7 +1,13 @@
 Rails.application.routes.draw do
-  
+
   mount Blacklight::Engine => '/'
   Blacklight::Marc.add_routes(self)
+
+
+  get '/pages/use' => 'pages#use'
+  get '/pages/about' => 'pages#about'
+  get '/pages/contact' => 'pages#contact'
+
   root to: "catalog#index"
     concern :searchable, Blacklight::Routes::Searchable.new
 
