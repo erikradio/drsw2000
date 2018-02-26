@@ -6,7 +6,7 @@ class CatalogController < ApplicationController
 
 
   configure_blacklight do |config|
-    ## Class for sending and receiving requests from a search index
+    config.add_nav_action(:nav, partial: 'layouts/nav')    ## Class for sending and receiving requests from a search index
     # config.repository_class = Blacklight::Solr::Repository
     #
     ## Class for converting Blacklight's url parameters to into request parameters for the search index
