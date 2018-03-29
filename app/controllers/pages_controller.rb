@@ -9,6 +9,6 @@ class PagesController < ApplicationController
   end
 
   def contact
-    @message ="email me loser"
+    @message ="email us"
   end
 end
